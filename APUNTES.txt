@@ -1,0 +1,19 @@
+link: https://www.youtube.com/watch?v=nzP9tjwXtvI&t=611s
+
+CONFIGURACIÓN DE eslint y prettier :
+
+Instalaciones : 
+npm install --save-dev eslint prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-tailwindcss @typescript-eslint/parser @typescript-eslint/eslint-plugin prettier-plugin-tailwindcss
+
+Tener el archivo .prettierrc.json separado con el plugin prettier-plugin-tailwindcss permite que Prettier formatee las clases de Tailwind CSS automáticamente en el orden adecuado.
+
+Con ambos archivos, eslintrc.json y .prettierrc.json, estás cubriendo las siguientes necesidades:
+
+.eslintrc.json:
+
+Configura las reglas de linting para TypeScript, React y Tailwind CSS.
+Integra Prettier como parte del proceso de linting para mantener un código limpio y consistente.
+
+.prettierrc.json:
+
+Configura Prettier para manejar el formato de las clases de Tailwind CSS automáticamente.
